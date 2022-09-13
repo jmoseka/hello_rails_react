@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
-  namespace :api do
+  namespace :api, defaults: {format: :json} do
     namespace :v1 do
-      resources :greetings, only: [:index, :show, :create]
+      resources :greetings, only: [:index]
     end
   end
   # get 'greetings/index'

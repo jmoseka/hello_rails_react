@@ -16,6 +16,9 @@
     "webpack-cli": "3.3.12"
   },
   "devDependencies": {
+    "@babel/core": "^7.19.0",
+    "@babel/preset-env": "^7.19.0",
+    "babel-loader": "^8.2.5",
     "webpack-dev-server": "3"
   }
 }
